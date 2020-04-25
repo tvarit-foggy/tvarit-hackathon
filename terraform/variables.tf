@@ -1,6 +1,6 @@
 resource "aws_key_pair" "deployer" {
   key_name   = "deployer-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC58o4bTeIivrumnISGUlpz4Orn2eUDtJYIKdI/3MaNS9A5QLC+CJZ/g/hcMcYvs5OsrgNWeQFmXxgx5wpjBIzb/H9RaJRXsdoS6gp/X57yyeQvBzPXH9udyK7l26pE8rlQDlN7zTHjSVFDmlXGQWvjYGo0ZxFxtca1AYWnBzst/OEBxXPmH6Nb7zdeh829EcNVLhho5jWwBsc1hFPU4vM9NKRoE4nWuK/55KFleyPzf/SmK+bO2qMHrM6ggTy8MkHvWcv952jJJ7ufS6fH43Nues9Eb2rUUsRAwt5/hiUy5jGupz7fO9FzgULeDY5LXpDjN8PJgOWWgakTxIGhgN8r sumeshks29@gmail.com"
+  public_key = "your public key"
 }
 
 variable "region" {
@@ -15,12 +15,12 @@ variable "AmiLinux" {
 }
 
 variable "aws_access_key" {
-  default = "AKIATUS3MVVJPULFL47T"
+  default = "user key"
   description = "the user aws access key"
 }
 
 variable "aws_secret_key" {
-  default = "/zp4d6RNuj0fYHCOwJ0O9euusSe5vr3pYWGbtqtV"
+  default = "your password"
   description = "the user aws secret key"
 }
 
