@@ -6,6 +6,9 @@
   * Total packets transferred at any given time
   * Total HTTP packets at any given time
   * HTTP packets with different status code against time
+  * Ratio of each HTTP packet types
 
 ## Architecture
 We are using the below reference architecture
+
+![Image description](resources/media/Untitled%20Diagram%20(1).png)
