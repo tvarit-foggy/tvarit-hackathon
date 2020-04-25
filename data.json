@@ -1,0 +1,4552 @@
+{
+  "data": [
+    {
+      "timestamp (S)": "2020-04-25T04:09:30.000Z",
+      "destination (M)": {
+        "bytes": "1577",
+        "ip": "172.31.9.119",
+        "packets": "15",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "39935912907",
+        "end": "2020-04-25T04:09:21.333Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "18122",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "35",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "16545",
+        "ip": "172.31.5.207",
+        "packets": "20",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:10:00.000Z",
+      "destination (M)": {
+        "bytes": "2093",
+        "ip": "172.31.9.119",
+        "packets": "19",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "69631962019",
+        "end": "2020-04-25T04:09:51.029Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "23219",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "47",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "21126",
+        "ip": "172.31.5.207",
+        "packets": "28",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:11:29.589Z",
+      "destination (M)": { "ip": "172.31.0.1", "port": "67" },
+      "event (M)": {
+        "category": "network_traffic",
+        "dataset": "dhcpv4",
+        "kind": "event",
+        "start": "2020-04-25T04:11:29.589Z"
+      },
+      "network (M)": {
+        "bytes": "297",
+        "community_id": "1:Blulle82RZwM0PELb/8q4ti2K2o=",
+        "direction": "outbound",
+        "protocol": "dhcpv4",
+        "transport": "udp",
+        "type": "ipv4"
+      },
+      "source (M)": { "bytes": "297", "ip": "172.31.5.207", "port": "68" },
+      "type (S)": "dhcpv4",
+      "flow (M)": {},
+      "client (M)": { "bytes": "297", "ip": "172.31.5.207", "port": "68" },
+      "server (M)": { "ip": "172.31.0.1", "port": "67" },
+      "status (S)": "OK",
+      "dhcpv4 (M)": {
+        "client_ip": "172.31.5.207",
+        "client_mac": "06:61:db:fa:62:2c",
+        "flags": "unicast",
+        "hardware_type": "Ethernet",
+        "hops": "0",
+        "op_code": "bootrequest",
+        "option": {
+          "hostname": "ip-172-31-5-207",
+          "max_dhcp_message_size": "576",
+          "message_type": "request",
+          "parameter_request_list": [
+            "Subnet Mask",
+            "Router",
+            "Host Name",
+            "Domain Name",
+            "Domain Name Server",
+            "Interface MTU",
+            "Static Routing Table",
+            "Classless Static Route Option",
+            "NTP Servers"
+          ]
+        },
+        "seconds": "7873",
+        "transaction_id": "0x393ab7a2"
+      },
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:11:29.590Z",
+      "destination (M)": { "ip": "172.31.5.207", "port": "68" },
+      "event (M)": {
+        "category": "network_traffic",
+        "dataset": "dhcpv4",
+        "kind": "event",
+        "start": "2020-04-25T04:11:29.590Z"
+      },
+      "network (M)": {
+        "bytes": "326",
+        "community_id": "1:Blulle82RZwM0PELb/8q4ti2K2o=",
+        "direction": "inbound",
+        "protocol": "dhcpv4",
+        "transport": "udp",
+        "type": "ipv4"
+      },
+      "source (M)": { "bytes": "326", "ip": "172.31.0.1", "port": "67" },
+      "type (S)": "dhcpv4",
+      "flow (M)": {},
+      "client (M)": { "ip": "172.31.5.207", "port": "68" },
+      "server (M)": { "bytes": "326", "ip": "172.31.0.1", "port": "67" },
+      "status (S)": "OK",
+      "dhcpv4 (M)": {
+        "assigned_ip": "172.31.5.207",
+        "client_ip": "172.31.5.207",
+        "client_mac": "06:61:db:fa:62:2c",
+        "flags": "unicast",
+        "hardware_type": "Ethernet",
+        "hops": "0",
+        "op_code": "bootreply",
+        "option": {
+          "dns_servers": ["172.31.0.2"],
+          "domain_name": "ca-central-1.compute.internal",
+          "hostname": "ip-172-31-5-207",
+          "ip_address_lease_time_sec": "3600",
+          "message_type": "ack",
+          "router": "172.31.0.1",
+          "server_identifier": "172.31.0.1",
+          "subnet_mask": "255.255.240.0"
+        },
+        "seconds": "7873",
+        "transaction_id": "0x393ab7a2"
+      },
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:12:50.000Z",
+      "destination (M)": {
+        "bytes": "5515",
+        "ip": "172.31.9.119",
+        "packets": "46",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "239615840402",
+        "end": "2020-04-25T04:12:41.013Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "58171",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "126",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "52656",
+        "ip": "172.31.5.207",
+        "packets": "80",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:14:10.000Z",
+      "destination (M)": {
+        "bytes": "7321",
+        "ip": "172.31.9.119",
+        "packets": "60",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "319999985415",
+        "end": "2020-04-25T04:14:01.397Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "75231",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "168",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "67910",
+        "ip": "172.31.5.207",
+        "packets": "108",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:14:20.000Z",
+      "destination (M)": {
+        "bytes": "7579",
+        "ip": "172.31.9.119",
+        "packets": "62",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "329727922587",
+        "end": "2020-04-25T04:14:11.125Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "77614",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "174",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "70035",
+        "ip": "172.31.5.207",
+        "packets": "112",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:17:10.000Z",
+      "destination (M)": {
+        "bytes": "10675",
+        "ip": "172.31.9.119",
+        "packets": "86",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "499711884584",
+        "end": "2020-04-25T04:17:01.109Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "109096",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "246",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "98421",
+        "ip": "172.31.5.207",
+        "packets": "160",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:17:40.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18614" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:17:33.365Z",
+        "kind": "event",
+        "start": "2020-04-25T04:17:33.365Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:oRGLkVzNXMb78K8Xr810c7+SUG8=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz7ZIFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:18:20.000Z",
+      "destination (M)": {
+        "bytes": "12352",
+        "ip": "172.31.9.119",
+        "packets": "99",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "569855896877",
+        "end": "2020-04-25T04:18:11.253Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "125484",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "285",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "113132",
+        "ip": "172.31.5.207",
+        "packets": "186",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:18:50.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18614" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:18:49.141Z",
+        "kind": "event",
+        "start": "2020-04-25T04:18:49.141Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:oRGLkVzNXMb78K8Xr810c7+SUG8=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz7ZIFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:19:30.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18614" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:18:49.141Z",
+        "kind": "event",
+        "start": "2020-04-25T04:18:49.141Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:oRGLkVzNXMb78K8Xr810c7+SUG8=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz7ZIFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:21:40.001Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18614" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:21:20.693Z",
+        "kind": "event",
+        "start": "2020-04-25T04:21:20.693Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:oRGLkVzNXMb78K8Xr810c7+SUG8=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz7ZIFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:22:10.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18614" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:21:20.693Z",
+        "kind": "event",
+        "start": "2020-04-25T04:21:20.693Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:oRGLkVzNXMb78K8Xr810c7+SUG8=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": true,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz7ZIFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:23:10.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18614" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:22:36.469Z",
+        "kind": "event",
+        "start": "2020-04-25T04:22:36.469Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:oRGLkVzNXMb78K8Xr810c7+SUG8=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": true,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz7ZIFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:24:00.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18614" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:23:52.245Z",
+        "kind": "event",
+        "start": "2020-04-25T04:23:52.245Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:oRGLkVzNXMb78K8Xr810c7+SUG8=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz7ZIFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:24:10.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18614" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:23:52.245Z",
+        "kind": "event",
+        "start": "2020-04-25T04:23:52.245Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:oRGLkVzNXMb78K8Xr810c7+SUG8=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz7ZIFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:26:10.000Z",
+      "destination (M)": {
+        "bytes": "23446",
+        "ip": "172.31.9.119",
+        "packets": "185",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1039871878910",
+        "end": "2020-04-25T04:26:01.269Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "234378",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "543",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "210932",
+        "ip": "172.31.5.207",
+        "packets": "358",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:31:40.001Z",
+      "destination (M)": {
+        "bytes": "30412",
+        "ip": "172.31.9.119",
+        "packets": "239",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1370111881395",
+        "end": "2020-04-25T04:31:31.509Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "304275",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "705",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "273863",
+        "ip": "172.31.5.207",
+        "packets": "466",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:31:50.000Z",
+      "destination (M)": {
+        "bytes": "30670",
+        "ip": "172.31.9.119",
+        "packets": "241",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1379840078352",
+        "end": "2020-04-25T04:31:41.237Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "306667",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "711",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "275997",
+        "ip": "172.31.5.207",
+        "packets": "470",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:33:10.000Z",
+      "destination (M)": {
+        "bytes": "32218",
+        "ip": "172.31.9.119",
+        "packets": "253",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1459711878176",
+        "end": "2020-04-25T04:33:01.109Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "321715",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "747",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "289497",
+        "ip": "172.31.5.207",
+        "packets": "494",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:33:40.002Z",
+      "destination (M)": {
+        "bytes": "32734",
+        "ip": "172.31.9.119",
+        "packets": "257",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1489919830290",
+        "end": "2020-04-25T04:33:31.317Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "326860",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "759",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "294126",
+        "ip": "172.31.5.207",
+        "packets": "502",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:35:00.000Z",
+      "destination (M)": {
+        "bytes": "34024",
+        "ip": "172.31.9.119",
+        "packets": "267",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1569791876023",
+        "end": "2020-04-25T04:34:51.189Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "339877",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "789",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "305853",
+        "ip": "172.31.5.207",
+        "packets": "522",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:36:20.000Z",
+      "destination (M)": {
+        "bytes": "2349",
+        "ip": "172.31.5.207",
+        "packets": "13",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "6144157589",
+        "end": "2020-04-25T04:35:53.653Z",
+        "kind": "event",
+        "start": "2020-04-25T04:35:47.509Z"
+      },
+      "network (M)": {
+        "bytes": "4154",
+        "community_id": "1:QDvTaJNowhNuZ9ws4jMiO4f3Ez0=",
+        "packets": "27",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1805",
+        "ip": "27.74.243.86",
+        "packets": "14",
+        "port": "44328"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAEbSvNWrB8FzyitFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:36:30.000Z",
+      "destination (M)": {
+        "bytes": "2349",
+        "ip": "172.31.5.207",
+        "packets": "13",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "6144157589",
+        "end": "2020-04-25T04:35:53.653Z",
+        "kind": "event",
+        "start": "2020-04-25T04:35:47.509Z"
+      },
+      "network (M)": {
+        "bytes": "4154",
+        "community_id": "1:QDvTaJNowhNuZ9ws4jMiO4f3Ez0=",
+        "packets": "27",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1805",
+        "ip": "27.74.243.86",
+        "packets": "14",
+        "port": "44328"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAEbSvNWrB8FzyitFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:36:50.001Z",
+      "destination (M)": {
+        "bytes": "36475",
+        "ip": "172.31.9.119",
+        "packets": "286",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1679871928434",
+        "end": "2020-04-25T04:36:41.269Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "364276",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "846",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "327801",
+        "ip": "172.31.5.207",
+        "packets": "560",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:39:40.001Z",
+      "destination (M)": {
+        "bytes": "39829",
+        "ip": "172.31.9.119",
+        "packets": "312",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1849855998470",
+        "end": "2020-04-25T04:39:31.253Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "396850",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "924",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "357021",
+        "ip": "172.31.5.207",
+        "packets": "612",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:40:00.000Z",
+      "destination (M)": {
+        "bytes": "40087",
+        "ip": "172.31.9.119",
+        "packets": "314",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1869824048913",
+        "end": "2020-04-25T04:39:51.221Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "399606",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "930",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "359519",
+        "ip": "172.31.5.207",
+        "packets": "616",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:40:50.000Z",
+      "destination (M)": {
+        "bytes": "2897",
+        "ip": "172.31.5.207",
+        "packets": "12",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "512171231",
+        "end": "2020-04-25T04:40:46.517Z",
+        "kind": "event",
+        "start": "2020-04-25T04:40:46.005Z"
+      },
+      "network (M)": {
+        "bytes": "4900",
+        "community_id": "1:C089Ar4ZAdgDwNo/dmWqGNYfU3w=",
+        "packets": "24",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "2003",
+        "ip": "37.49.226.19",
+        "packets": "12",
+        "port": "52382"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAElMeITrB8Fz57MFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:43:00.000Z",
+      "destination (M)": {
+        "bytes": "2897",
+        "ip": "172.31.5.207",
+        "packets": "12",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1024011290",
+        "end": "2020-04-25T04:42:54.517Z",
+        "kind": "event",
+        "start": "2020-04-25T04:42:53.493Z"
+      },
+      "network (M)": {
+        "bytes": "5036",
+        "community_id": "1:zFnqo2olafaFliHhGfWWkzDgaaQ=",
+        "packets": "26",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "2139",
+        "ip": "37.49.226.19",
+        "packets": "14",
+        "port": "51448"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAElMeITrB8Fz/jIFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:43:10.000Z",
+      "destination (M)": {
+        "bytes": "2897",
+        "ip": "172.31.5.207",
+        "packets": "12",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1024105508",
+        "end": "2020-04-25T04:43:07.317Z",
+        "kind": "event",
+        "start": "2020-04-25T04:43:06.293Z"
+      },
+      "network (M)": {
+        "bytes": "5036",
+        "community_id": "1:M0zScJvbKsQSvmXjN4L/BJlpVPs=",
+        "packets": "26",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "2139",
+        "ip": "37.49.226.19",
+        "packets": "14",
+        "port": "57642"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAElMeITrB8FzyrhFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:43:30.000Z",
+      "destination (M)": {
+        "bytes": "2897",
+        "ip": "172.31.5.207",
+        "packets": "12",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "512249147",
+        "end": "2020-04-25T04:43:27.285Z",
+        "kind": "event",
+        "start": "2020-04-25T04:43:26.773Z"
+      },
+      "network (M)": {
+        "bytes": "5036",
+        "community_id": "1:jdd1smVI48/nfO8doPyhiNt6IL8=",
+        "packets": "26",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "2139",
+        "ip": "37.49.226.19",
+        "packets": "14",
+        "port": "52838"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAElMeITrB8Fz2bOFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:43:50.000Z",
+      "destination (M)": {
+        "bytes": "2897",
+        "ip": "172.31.5.207",
+        "packets": "12",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1024147258",
+        "end": "2020-04-25T04:43:46.741Z",
+        "kind": "event",
+        "start": "2020-04-25T04:43:45.717Z"
+      },
+      "network (M)": {
+        "bytes": "5036",
+        "community_id": "1:gCQLWB9429BEJmDkgIXGSlOAvGI=",
+        "packets": "26",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "2139",
+        "ip": "37.49.226.19",
+        "packets": "14",
+        "port": "47922"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAElMeITrB8FzzK7FgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:44:20.000Z",
+      "destination (M)": {
+        "bytes": "2897",
+        "ip": "172.31.5.207",
+        "packets": "12",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1024108685",
+        "end": "2020-04-25T04:44:19.509Z",
+        "kind": "event",
+        "start": "2020-04-25T04:44:18.485Z"
+      },
+      "network (M)": {
+        "bytes": "5036",
+        "community_id": "1:ZS5MQZG+UtsQSFrXeuy4NsWe0fQ=",
+        "packets": "26",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "2139",
+        "ip": "37.49.226.19",
+        "packets": "14",
+        "port": "49252"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAElMeITrB8Fz2TAFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:45:00.000Z",
+      "destination (M)": {
+        "bytes": "2897",
+        "ip": "172.31.5.207",
+        "packets": "12",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "1024072510",
+        "end": "2020-04-25T04:44:57.909Z",
+        "kind": "event",
+        "start": "2020-04-25T04:44:56.885Z"
+      },
+      "network (M)": {
+        "bytes": "5036",
+        "community_id": "1:be8BlTnArc23heiM0FC1QG1rNcE=",
+        "packets": "26",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "2139",
+        "ip": "37.49.226.19",
+        "packets": "14",
+        "port": "39514"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAElMeITrB8Fz1qaFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:46:10.000Z",
+      "destination (M)": {
+        "bytes": "92",
+        "ip": "91.189.91.157",
+        "packets": "1",
+        "port": "123"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "27953",
+        "end": "2020-04-25T04:45:37.845Z",
+        "kind": "event",
+        "start": "2020-04-25T04:45:37.845Z"
+      },
+      "network (M)": {
+        "bytes": "184",
+        "community_id": "1:Zx7ruPOeHdHdfOf92Eah+qd4cpc=",
+        "packets": "2",
+        "transport": "udp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "92",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "56419"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": true,
+        "id": "EAL/////AP////8I//8AAAFbvVudrB8Fz3sAY9w"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:47:10.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18746" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:47:06.933Z",
+        "kind": "event",
+        "start": "2020-04-25T04:47:06.933Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:GTGYKoC+8xbDUR85s1+bioafjFo=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8FzzpJFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:50:20.000Z",
+      "destination (M)": {
+        "bytes": "58015",
+        "ip": "172.31.9.119",
+        "packets": "470",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "2489855968423",
+        "end": "2020-04-25T04:50:11.253Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "590403",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "1326",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "532388",
+        "ip": "172.31.5.207",
+        "packets": "856",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:50:30.000Z",
+      "destination (M)": {
+        "bytes": "58273",
+        "ip": "172.31.9.119",
+        "packets": "472",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "2500095974978",
+        "end": "2020-04-25T04:50:21.493Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "592801",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "1332",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "534528",
+        "ip": "172.31.5.207",
+        "packets": "860",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:50:50.000Z",
+      "destination (M)": {
+        "bytes": "58789",
+        "ip": "172.31.9.119",
+        "packets": "476",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "2520063964287",
+        "end": "2020-04-25T04:50:41.461Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "597594",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "1344",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "538805",
+        "ip": "172.31.5.207",
+        "packets": "868",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:51:20.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18746" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:50:54.261Z",
+        "kind": "event",
+        "start": "2020-04-25T04:50:54.261Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:GTGYKoC+8xbDUR85s1+bioafjFo=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8FzzpJFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:52:50.000Z",
+      "destination (M)": {
+        "bytes": "92",
+        "ip": "91.189.91.157",
+        "packets": "1",
+        "port": "123"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "24784",
+        "end": "2020-04-25T04:52:44.341Z",
+        "kind": "event",
+        "start": "2020-04-25T04:52:44.341Z"
+      },
+      "network (M)": {
+        "bytes": "184",
+        "community_id": "1:muqLqK9rB6xzssjcOKFn9Kgg/sM=",
+        "packets": "2",
+        "transport": "udp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "92",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "58396"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAL/////AP////8I//8AAAFbvVudrB8Fz3sAHOQ"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:54:10.000Z",
+      "destination (M)": {
+        "bytes": "2361",
+        "ip": "172.31.5.207",
+        "packets": "13",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "6656105546",
+        "end": "2020-04-25T04:53:50.389Z",
+        "kind": "event",
+        "start": "2020-04-25T04:53:43.733Z"
+      },
+      "network (M)": {
+        "bytes": "4302",
+        "community_id": "1:dYfLPc/Z6uHWOeLdbznFp+6QicY=",
+        "packets": "29",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1941",
+        "ip": "27.74.243.86",
+        "packets": "16",
+        "port": "45340"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAEbSvNWrB8FzxyxFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:54:30.000Z",
+      "destination (M)": {
+        "bytes": "2361",
+        "ip": "172.31.5.207",
+        "packets": "13",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "6656105546",
+        "end": "2020-04-25T04:53:50.389Z",
+        "kind": "event",
+        "start": "2020-04-25T04:53:43.733Z"
+      },
+      "network (M)": {
+        "bytes": "4302",
+        "community_id": "1:dYfLPc/Z6uHWOeLdbznFp+6QicY=",
+        "packets": "29",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1941",
+        "ip": "27.74.243.86",
+        "packets": "16",
+        "port": "45340"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAEbSvNWrB8FzxyxFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:55:30.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "18746" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T04:54:41.589Z",
+        "kind": "event",
+        "start": "2020-04-25T04:54:41.589Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:GTGYKoC+8xbDUR85s1+bioafjFo=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8FzzpJFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:57:10.000Z",
+      "destination (M)": {
+        "bytes": "7253",
+        "ip": "172.31.5.207",
+        "packets": "38",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "28159913324",
+        "end": "2020-04-25T04:57:09.557Z",
+        "kind": "event",
+        "start": "2020-04-25T04:56:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "13790",
+        "community_id": "1:tbkdh1s8LVLDXy99CrBygwkwtlg=",
+        "packets": "81",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "6537",
+        "ip": "123.201.94.56",
+        "packets": "43",
+        "port": "12067"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yV44rB8FzyMvFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:58:50.001Z",
+      "destination (M)": {
+        "bytes": "31673",
+        "ip": "172.31.5.207",
+        "packets": "134",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "116735798412",
+        "end": "2020-04-25T04:58:38.133Z",
+        "kind": "event",
+        "start": "2020-04-25T04:56:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "51206",
+        "community_id": "1:tbkdh1s8LVLDXy99CrBygwkwtlg=",
+        "packets": "333",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "19533",
+        "ip": "123.201.94.56",
+        "packets": "199",
+        "port": "12067"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yV44rB8FzyMvFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:59:40.000Z",
+      "destination (M)": {
+        "bytes": "33689",
+        "ip": "172.31.5.207",
+        "packets": "136",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "177151859506",
+        "end": "2020-04-25T04:59:38.549Z",
+        "kind": "event",
+        "start": "2020-04-25T04:56:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "53358",
+        "community_id": "1:tbkdh1s8LVLDXy99CrBygwkwtlg=",
+        "packets": "337",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "19669",
+        "ip": "123.201.94.56",
+        "packets": "201",
+        "port": "12067"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yV44rB8FzyMvFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T04:59:50.000Z",
+      "destination (M)": {
+        "bytes": "33793",
+        "ip": "172.31.5.207",
+        "packets": "137",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "182271794347",
+        "end": "2020-04-25T04:59:43.669Z",
+        "kind": "event",
+        "start": "2020-04-25T04:56:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "53634",
+        "community_id": "1:tbkdh1s8LVLDXy99CrBygwkwtlg=",
+        "packets": "340",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "19841",
+        "ip": "123.201.94.56",
+        "packets": "203",
+        "port": "12067"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yV44rB8FzyMvFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:00:00.000Z",
+      "destination (M)": {
+        "bytes": "34225",
+        "ip": "172.31.5.207",
+        "packets": "140",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "198143842136",
+        "end": "2020-04-25T04:59:59.541Z",
+        "kind": "event",
+        "start": "2020-04-25T04:56:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "54406",
+        "community_id": "1:tbkdh1s8LVLDXy99CrBygwkwtlg=",
+        "packets": "346",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "20181",
+        "ip": "123.201.94.56",
+        "packets": "206",
+        "port": "12067"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yV44rB8FzyMvFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:01:00.000Z",
+      "destination (M)": {
+        "bytes": "36481",
+        "ip": "172.31.5.207",
+        "packets": "145",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "237055814453",
+        "end": "2020-04-25T05:00:38.453Z",
+        "kind": "event",
+        "start": "2020-04-25T04:56:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "57106",
+        "community_id": "1:tbkdh1s8LVLDXy99CrBygwkwtlg=",
+        "packets": "356",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "20625",
+        "ip": "123.201.94.56",
+        "packets": "211",
+        "port": "12067"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yV44rB8FzyMvFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:02:00.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "19115" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T05:01:47.573Z",
+        "kind": "event",
+        "start": "2020-04-25T05:01:47.573Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:i8BtO0TMcMJOOruwkj49y0p7gz0=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz6tKFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:02:34.624Z",
+      "destination (M)": { "ip": "ff02::2" },
+      "event (M)": {
+        "category": "network_traffic",
+        "dataset": "icmp",
+        "kind": "event",
+        "start": "2020-04-25T05:02:34.624Z"
+      },
+      "network (M)": {
+        "bytes": "8",
+        "community_id": "1:6EtM2fUI0xALJ0uUNAs7kI9XghM=",
+        "direction": "outbound",
+        "transport": "ipv6-icmp",
+        "type": "ipv6"
+      },
+      "source (M)": { "bytes": "8", "ip": "fe80::461:dbff:fefa:622c" },
+      "type (S)": "icmp",
+      "flow (M)": {},
+      "client (M)": { "bytes": "8", "ip": "fe80::461:dbff:fefa:622c" },
+      "server (M)": { "ip": "ff02::2" },
+      "status (S)": "OK",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {
+        "request": {
+          "code": "0",
+          "message": "RouterSolicitation(0)",
+          "type": "133"
+        },
+        "version": "6"
+      },
+      "method (S)": "",
+      "path (S)": "ff02::2",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:02:40.000Z",
+      "destination (M)": { "ip": "ff02::2" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T05:02:34.677Z",
+        "kind": "event",
+        "start": "2020-04-25T05:02:34.677Z"
+      },
+      "network (M)": {
+        "bytes": "72",
+        "community_id": "1:6EtM2fUI0xALJ0uUNAs7kI9XghM=",
+        "packets": "1",
+        "transport": "ipv6-icmp",
+        "type": "ipv6"
+      },
+      "source (M)": {
+        "bytes": "72",
+        "ip": "fe80::461:dbff:fefa:622c",
+        "packets": "1"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "QAD///////8A//////8AAAH+gAAAAAAAAARh2//++mIs/wIAAAAAAAAAAAAAAAAAAg"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:06:10.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "19115" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T05:05:34.901Z",
+        "kind": "event",
+        "start": "2020-04-25T05:05:34.901Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:i8BtO0TMcMJOOruwkj49y0p7gz0=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": true,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz6tKFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:06:20.000Z",
+      "destination (M)": {
+        "bytes": "83979",
+        "ip": "172.31.9.119",
+        "packets": "676",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "3449855936423",
+        "end": "2020-04-25T05:06:11.253Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "853372",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "1924",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "769393",
+        "ip": "172.31.5.207",
+        "packets": "1248",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:07:30.000Z",
+      "destination (M)": {
+        "bytes": "60",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "109653",
+        "end": "2020-04-25T05:06:53.237Z",
+        "kind": "event",
+        "start": "2020-04-25T05:06:53.237Z"
+      },
+      "network (M)": {
+        "bytes": "228",
+        "community_id": "1:x5sCENexUjzRCpTteIJfE1vhuWU=",
+        "packets": "4",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "168",
+        "ip": "51.161.13.149",
+        "packets": "3",
+        "port": "51177"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAEzoQ2VrB8Fz+nHFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:08:20.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "19115" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T05:08:06.453Z",
+        "kind": "event",
+        "start": "2020-04-25T05:08:06.453Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:i8BtO0TMcMJOOruwkj49y0p7gz0=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz6tKFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:09:30.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "19115" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T05:09:22.229Z",
+        "kind": "event",
+        "start": "2020-04-25T05:09:22.229Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:i8BtO0TMcMJOOruwkj49y0p7gz0=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz6tKFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:09:50.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "19115" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T05:09:22.229Z",
+        "kind": "event",
+        "start": "2020-04-25T05:09:22.229Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:i8BtO0TMcMJOOruwkj49y0p7gz0=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz6tKFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:10:20.000Z",
+      "destination (M)": {
+        "bytes": "89655",
+        "ip": "172.31.9.119",
+        "packets": "720",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "3689983921871",
+        "end": "2020-04-25T05:10:11.381Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "910201",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2056",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "820546",
+        "ip": "172.31.5.207",
+        "packets": "1336",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:11:20.000Z",
+      "destination (M)": {
+        "bytes": "91203",
+        "ip": "172.31.9.119",
+        "packets": "732",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "3749887991408",
+        "end": "2020-04-25T05:11:11.285Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "925282",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2092",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "834079",
+        "ip": "172.31.5.207",
+        "packets": "1360",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:12:20.000Z",
+      "destination (M)": { "ip": "123.201.8.240", "port": "19115" },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "0",
+        "end": "2020-04-25T05:11:53.781Z",
+        "kind": "event",
+        "start": "2020-04-25T05:11:53.781Z"
+      },
+      "network (M)": {
+        "bytes": "68",
+        "community_id": "1:i8BtO0TMcMJOOruwkj49y0p7gz0=",
+        "packets": "1",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "68",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "22"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yQjwrB8Fz6tKFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:12:50.000Z",
+      "destination (M)": {
+        "bytes": "93138",
+        "ip": "172.31.9.119",
+        "packets": "747",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "3839999989335",
+        "end": "2020-04-25T05:12:41.397Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "944661",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2137",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "851523",
+        "ip": "172.31.5.207",
+        "packets": "1390",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:13:50.000Z",
+      "destination (M)": {
+        "bytes": "94428",
+        "ip": "172.31.9.119",
+        "packets": "757",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "3899903973827",
+        "end": "2020-04-25T05:13:41.301Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "957610",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2167",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "863182",
+        "ip": "172.31.5.207",
+        "packets": "1410",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:14:20.000Z",
+      "destination (M)": {
+        "bytes": "95073",
+        "ip": "172.31.9.119",
+        "packets": "762",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "3930111940190",
+        "end": "2020-04-25T05:14:11.509Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "963802",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2182",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "868729",
+        "ip": "172.31.5.207",
+        "packets": "1420",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:14:40.000Z",
+      "destination (M)": {
+        "bytes": "95460",
+        "ip": "172.31.9.119",
+        "packets": "765",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "3950079961853",
+        "end": "2020-04-25T05:14:31.477Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "967567",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2191",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "872107",
+        "ip": "172.31.5.207",
+        "packets": "1426",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:15:20.000Z",
+      "destination (M)": {
+        "bytes": "2281",
+        "ip": "172.31.5.207",
+        "packets": "12",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5631988756",
+        "end": "2020-04-25T05:14:54.005Z",
+        "kind": "event",
+        "start": "2020-04-25T05:14:48.373Z"
+      },
+      "network (M)": {
+        "bytes": "4086",
+        "community_id": "1:GohGGs25yX010cXM12CHvmNAgsQ=",
+        "packets": "26",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1805",
+        "ip": "27.74.243.86",
+        "packets": "14",
+        "port": "46526"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAEbSvNWrB8Fz761FgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:17:40.003Z",
+      "destination (M)": {
+        "bytes": "99459",
+        "ip": "172.31.9.119",
+        "packets": "796",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4129791945091",
+        "end": "2020-04-25T05:17:31.189Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1006820",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2284",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "907361",
+        "ip": "172.31.5.207",
+        "packets": "1488",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:18:00.000Z",
+      "destination (M)": {
+        "bytes": "99846",
+        "ip": "172.31.9.119",
+        "packets": "799",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4149759856448",
+        "end": "2020-04-25T05:17:51.157Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1010596",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2293",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "910750",
+        "ip": "172.31.5.207",
+        "packets": "1494",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:22:10.000Z",
+      "destination (M)": {
+        "bytes": "105135",
+        "ip": "172.31.9.119",
+        "packets": "840",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4400127836149",
+        "end": "2020-04-25T05:22:01.525Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1062642",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2416",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "957507",
+        "ip": "172.31.5.207",
+        "packets": "1576",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:22:40.000Z",
+      "destination (M)": {
+        "bytes": "105780",
+        "ip": "172.31.9.119",
+        "packets": "845",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4429823871703",
+        "end": "2020-04-25T05:22:31.221Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1068823",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2431",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "963043",
+        "ip": "172.31.5.207",
+        "packets": "1586",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:24:30.000Z",
+      "destination (M)": {
+        "bytes": "108489",
+        "ip": "172.31.9.119",
+        "packets": "866",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4539903872586",
+        "end": "2020-04-25T05:24:21.301Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1096943",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2494",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "988454",
+        "ip": "172.31.5.207",
+        "packets": "1628",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:24:50.000Z",
+      "destination (M)": {
+        "bytes": "108876",
+        "ip": "172.31.9.119",
+        "packets": "869",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4559871943205",
+        "end": "2020-04-25T05:24:41.269Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1100735",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2503",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "991859",
+        "ip": "172.31.5.207",
+        "packets": "1634",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:26:40.000Z",
+      "destination (M)": {
+        "bytes": "360",
+        "ip": "172.31.5.207",
+        "packets": "6",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "31232030467",
+        "end": "2020-04-25T05:26:32.885Z",
+        "kind": "event",
+        "start": "2020-04-25T05:26:01.653Z"
+      },
+      "network (M)": {
+        "bytes": "416",
+        "community_id": "1:2mbyBAfuRzTHeinzB0Nk0FBGTnc=",
+        "packets": "7",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "56",
+        "ip": "51.161.9.95",
+        "packets": "1",
+        "port": "58444"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAEzoQlfrB8Fz0zkFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:27:00.000Z",
+      "destination (M)": {
+        "bytes": "360",
+        "ip": "172.31.5.207",
+        "packets": "6",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "31232030467",
+        "end": "2020-04-25T05:26:32.885Z",
+        "kind": "event",
+        "start": "2020-04-25T05:26:01.653Z"
+      },
+      "network (M)": {
+        "bytes": "416",
+        "community_id": "1:2mbyBAfuRzTHeinzB0Nk0FBGTnc=",
+        "packets": "7",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "56",
+        "ip": "51.161.9.95",
+        "packets": "1",
+        "port": "58444"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAEzoQlfrB8Fz0zkFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:27:40.000Z",
+      "destination (M)": {
+        "bytes": "112875",
+        "ip": "172.31.9.119",
+        "packets": "900",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4729855935702",
+        "end": "2020-04-25T05:27:31.253Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1139844",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2596",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1026969",
+        "ip": "172.31.5.207",
+        "packets": "1696",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:28:00.000Z",
+      "destination (M)": {
+        "bytes": "113262",
+        "ip": "172.31.9.119",
+        "packets": "903",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4749823945158",
+        "end": "2020-04-25T05:27:51.221Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1143638",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2605",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1030376",
+        "ip": "172.31.5.207",
+        "packets": "1702",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:28:20.000Z",
+      "destination (M)": {
+        "bytes": "113649",
+        "ip": "172.31.9.119",
+        "packets": "906",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4769791851971",
+        "end": "2020-04-25T05:28:11.189Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1147415",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2614",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1033766",
+        "ip": "172.31.5.207",
+        "packets": "1708",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:28:50.000Z",
+      "destination (M)": {
+        "bytes": "114294",
+        "ip": "172.31.9.119",
+        "packets": "911",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4799999925371",
+        "end": "2020-04-25T05:28:41.397Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1153591",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2629",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1039297",
+        "ip": "172.31.5.207",
+        "packets": "1718",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:29:30.000Z",
+      "destination (M)": {
+        "bytes": "114939",
+        "ip": "172.31.9.119",
+        "packets": "916",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4839935946153",
+        "end": "2020-04-25T05:29:21.333Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1160130",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2644",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1045191",
+        "ip": "172.31.5.207",
+        "packets": "1728",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:30:00.000Z",
+      "destination (M)": {
+        "bytes": "115713",
+        "ip": "172.31.9.119",
+        "packets": "922",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4870143779564",
+        "end": "2020-04-25T05:29:51.541Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1167317",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2662",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1051604",
+        "ip": "172.31.5.207",
+        "packets": "1740",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:30:10.001Z",
+      "destination (M)": {
+        "bytes": "115971",
+        "ip": "172.31.9.119",
+        "packets": "924",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "4879871954678",
+        "end": "2020-04-25T05:30:01.269Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1169712",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2668",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1053741",
+        "ip": "172.31.5.207",
+        "packets": "1744",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:34:40.000Z",
+      "destination (M)": {
+        "bytes": "121776",
+        "ip": "172.31.9.119",
+        "packets": "969",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5149695883161",
+        "end": "2020-04-25T05:34:31.093Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1226561",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2803",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1104785",
+        "ip": "172.31.5.207",
+        "packets": "1834",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:35:40.000Z",
+      "destination (M)": {
+        "bytes": "123066",
+        "ip": "172.31.9.119",
+        "packets": "979",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5210111959029",
+        "end": "2020-04-25T05:35:31.509Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1239264",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2833",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1116198",
+        "ip": "172.31.5.207",
+        "packets": "1854",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:37:10.000Z",
+      "destination (M)": {
+        "bytes": "6957",
+        "ip": "172.31.5.207",
+        "packets": "35",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5632360896",
+        "end": "2020-04-25T05:36:57.525Z",
+        "kind": "event",
+        "start": "2020-04-25T05:36:51.893Z"
+      },
+      "network (M)": {
+        "bytes": "13126",
+        "community_id": "1:p7A8+/jfERlRH805Mrh0pmZwNn4=",
+        "packets": "75",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "6169",
+        "ip": "123.201.94.56",
+        "packets": "40",
+        "port": "12720"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yV44rB8Fz7AxFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:38:40.000Z",
+      "destination (M)": {
+        "bytes": "127194",
+        "ip": "172.31.9.119",
+        "packets": "1011",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5389823940495",
+        "end": "2020-04-25T05:38:31.221Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1280171",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "2929",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1152977",
+        "ip": "172.31.5.207",
+        "packets": "1918",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:39:40.000Z",
+      "destination (M)": {
+        "bytes": "27156",
+        "ip": "172.31.5.207",
+        "packets": "42",
+        "port": "22"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5120289161",
+        "end": "2020-04-25T05:39:37.781Z",
+        "kind": "event",
+        "start": "2020-04-25T05:39:32.661Z"
+      },
+      "network (M)": {
+        "bytes": "32296",
+        "community_id": "1:p7A8+/jfERlRH805Mrh0pmZwNn4=",
+        "packets": "105",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "5140",
+        "ip": "123.201.94.56",
+        "packets": "63",
+        "port": "12720"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAF7yV44rB8Fz7AxFgA"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:41:28.158Z",
+      "destination (M)": { "bytes": "126", "ip": "127.0.0.53", "port": "53" },
+      "event (M)": {
+        "category": "network_traffic",
+        "dataset": "dns",
+        "duration": "10907000",
+        "end": "2020-04-25T05:41:28.169Z",
+        "kind": "event",
+        "start": "2020-04-25T05:41:28.158Z"
+      },
+      "network (M)": {
+        "bytes": "177",
+        "community_id": "1:uzyTLc9cWyj8Rw9I1rRlq3NcHOY=",
+        "protocol": "dns",
+        "transport": "udp",
+        "type": "ipv4"
+      },
+      "source (M)": { "bytes": "51", "ip": "127.0.0.1", "port": "38229" },
+      "type (S)": "dns",
+      "flow (M)": {},
+      "client (M)": { "bytes": "51", "ip": "127.0.0.1", "port": "38229" },
+      "server (M)": { "bytes": "126", "ip": "127.0.0.53", "port": "53" },
+      "status (S)": "OK",
+      "dhcpv4 (M)": {},
+      "dns (M)": {
+        "additionals_count": "0",
+        "answers": [
+          {
+            "class": "IN",
+            "data": "dualstack.r.ssl.global.fastly.net",
+            "name": "files.pythonhosted.org",
+            "ttl": "60",
+            "type": "CNAME"
+          },
+          {
+            "class": "IN",
+            "data": "2a04:4e42:1e::319",
+            "name": "dualstack.r.ssl.global.fastly.net",
+            "ttl": "29",
+            "type": "AAAA"
+          }
+        ],
+        "answers_count": "2",
+        "authorities_count": "0",
+        "flags": {
+          "authentic_data": false,
+          "authoritative": false,
+          "checking_disabled": false,
+          "recursion_available": true,
+          "recursion_desired": true,
+          "truncated_response": false
+        },
+        "header_flags": ["RD", "RA"],
+        "id": "11312",
+        "op_code": "QUERY",
+        "opt": {
+          "do": false,
+          "ext_rcode": "NOERROR",
+          "udp_size": "65494",
+          "version": "0"
+        },
+        "question": {
+          "class": "IN",
+          "etld_plus_one": "pythonhosted.org",
+          "name": "files.pythonhosted.org",
+          "registered_domain": "pythonhosted.org",
+          "type": "AAAA"
+        },
+        "resolved_ip": ["2a04:4e42:1e::319"],
+        "response_code": "NOERROR",
+        "type": "answer"
+      },
+      "icmp (M)": {},
+      "method (S)": "QUERY",
+      "path (S)": "",
+      "query (S)": "class IN, type AAAA, files.pythonhosted.org",
+      "resource (S)": "files.pythonhosted.org"
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:42:00.000Z",
+      "destination (M)": {
+        "bytes": "170",
+        "ip": "172.31.0.2",
+        "packets": "1",
+        "port": "53"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "672918",
+        "end": "2020-04-25T05:41:28.266Z",
+        "kind": "event",
+        "start": "2020-04-25T05:41:28.265Z"
+      },
+      "network (M)": {
+        "bytes": "265",
+        "community_id": "1:DGnbKqedN3lzdRulbir5iZ/JXOg=",
+        "packets": "2",
+        "transport": "udp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "95",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "52158"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAL/////AP////8I//8AAAGsHwACrB8FzzUAvss"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:43:40.000Z",
+      "destination (M)": {
+        "bytes": "135152",
+        "ip": "172.31.9.119",
+        "packets": "1076",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5689791960069",
+        "end": "2020-04-25T05:43:31.189Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1367043",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "3110",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1231891",
+        "ip": "172.31.5.207",
+        "packets": "2034",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:45:50.000Z",
+      "destination (M)": {
+        "bytes": "138119",
+        "ip": "172.31.9.119",
+        "packets": "1099",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5819839829449",
+        "end": "2020-04-25T05:45:41.237Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1395160",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "3179",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1257041",
+        "ip": "172.31.5.207",
+        "packets": "2080",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:47:20.000Z",
+      "destination (M)": {
+        "bytes": "140054",
+        "ip": "172.31.9.119",
+        "packets": "1114",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5909951964471",
+        "end": "2020-04-25T05:47:11.349Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1413740",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "3224",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1273686",
+        "ip": "172.31.5.207",
+        "packets": "2110",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:48:30.000Z",
+      "destination (M)": {
+        "bytes": "141344",
+        "ip": "172.31.9.119",
+        "packets": "1124",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "5980095938583",
+        "end": "2020-04-25T05:48:21.493Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1426461",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "3254",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1285117",
+        "ip": "172.31.5.207",
+        "packets": "2130",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:49:00.000Z",
+      "destination (M)": {
+        "bytes": "141860",
+        "ip": "172.31.9.119",
+        "packets": "1128",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "6009791949010",
+        "end": "2020-04-25T05:48:51.189Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1431609",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "3266",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1289749",
+        "ip": "172.31.5.207",
+        "packets": "2138",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:50:50.000Z",
+      "destination (M)": {
+        "bytes": "144182",
+        "ip": "172.31.9.119",
+        "packets": "1146",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "6119871874231",
+        "end": "2020-04-25T05:50:41.269Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1453961",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "3320",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1309779",
+        "ip": "172.31.5.207",
+        "packets": "2174",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:53:00.000Z",
+      "destination (M)": {
+        "bytes": "92",
+        "ip": "91.189.91.157",
+        "packets": "1",
+        "port": "123"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "24596",
+        "end": "2020-04-25T05:52:44.149Z",
+        "kind": "event",
+        "start": "2020-04-25T05:52:44.149Z"
+      },
+      "network (M)": {
+        "bytes": "184",
+        "community_id": "1:sQZShO+dNPfCpfDO7lCRySX+0OM=",
+        "packets": "2",
+        "transport": "udp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "92",
+        "ip": "172.31.5.207",
+        "packets": "1",
+        "port": "36038"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAL/////AP////8I//8AAAFbvVudrB8Fz3sAxow"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:53:50.000Z",
+      "destination (M)": {
+        "bytes": "148568",
+        "ip": "172.31.9.119",
+        "packets": "1180",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "6300095980673",
+        "end": "2020-04-25T05:53:41.493Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1498627",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "3422",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1350059",
+        "ip": "172.31.5.207",
+        "packets": "2242",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:55:50.000Z",
+      "destination (M)": {
+        "bytes": "150761",
+        "ip": "172.31.9.119",
+        "packets": "1197",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "6419903877008",
+        "end": "2020-04-25T05:55:41.301Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1520287",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "3473",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1369526",
+        "ip": "172.31.5.207",
+        "packets": "2276",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    },
+    {
+      "timestamp (S)": "2020-04-25T05:56:40.000Z",
+      "destination (M)": {
+        "bytes": "151793",
+        "ip": "172.31.9.119",
+        "packets": "1205",
+        "port": "9092"
+      },
+      "event (M)": {
+        "action": "network_flow",
+        "category": "network_traffic",
+        "dataset": "flow",
+        "duration": "6470079975270",
+        "end": "2020-04-25T05:56:31.477Z",
+        "kind": "event",
+        "start": "2020-04-25T04:08:41.397Z"
+      },
+      "network (M)": {
+        "bytes": "1530238",
+        "community_id": "1:fyIY7TNi2RQuhXawi4V6UrgrQ8o=",
+        "packets": "3497",
+        "transport": "tcp",
+        "type": "ipv4"
+      },
+      "source (M)": {
+        "bytes": "1378445",
+        "ip": "172.31.5.207",
+        "packets": "2292",
+        "port": "59730"
+      },
+      "type (S)": "flow",
+      "flow (M)": {
+        "final": false,
+        "id": "EAT/////AP//////CP8AAAGsHwXPrB8Jd1LphCM"
+      },
+      "client (M)": {},
+      "server (M)": {},
+      "status (S)": "",
+      "dhcpv4 (M)": {},
+      "dns (M)": {},
+      "icmp (M)": {},
+      "method (S)": "",
+      "path (S)": "",
+      "query (S)": "",
+      "resource (S)": ""
+    }
+  ]
+}
