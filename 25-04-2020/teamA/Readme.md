@@ -8,6 +8,13 @@
   * HTTP packets with different status code against time
   * Ratio of each HTTP packet types
 
+## Tech Stack
+ * Kafka python library to read and export messages 
+ * Docker-compose for infrastructure commissioning
+ * Elastic search as a search optimized persistence 
+ * KIBANA as a user friendly interface to create dashboards 
+ * AWS Lambda(server-less) to extract data from KAFKA and process it
+
 ## Architecture
 We are using the below reference architecture
 
