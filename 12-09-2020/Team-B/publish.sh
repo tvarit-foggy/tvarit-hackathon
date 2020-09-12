@@ -11,7 +11,7 @@ humidity=$((RANDOM%100))
 echo "$machineId,$temperature,$voltage,$current,$speed,$pressure,$humidity"
 
 
-aws kinesis put-record --stream-name shu_stream --data "$timestamp,$machineId,$temperature,$voltage,$current,$speed,$pressure,$humidity"$'\n' --partition-key $machineId --region eu-west-1
+aws kinesis put-record --stream-name Hackathon-12-09-2020-Team-B --data "$timestamp,$machineId,$temperature,$voltage,$current,$speed,$pressure,$humidity"$'\n' --partition-key $machineId --region eu-west-1
 
 sleep 1
 done
