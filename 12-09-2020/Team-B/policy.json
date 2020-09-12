@@ -1,0 +1,58 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "ReadCode",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:GetObjectVersion"
+            ],
+            "Resource": [
+                "arn:aws:s3:::com.tvarit.hackathon-12-09-2020.teamb/aws-kinesis-analytics-java-apps-1.0.jar"
+            ]
+        },
+        {
+            "Sid": "ListCloudwatchLogGroups",
+            "Effect": "Allow",
+            "Action": [
+                "logs:DescribeLogGroups"
+            ],
+            "Resource": [
+                "arn:aws:logs:eu-west-1:250373516626:log-group:*"
+            ]
+        },
+        {
+            "Sid": "ListCloudwatchLogStreams",
+            "Effect": "Allow",
+            "Action": [
+                "logs:DescribeLogStreams"
+            ],
+            "Resource": [
+                "arn:aws:logs:eu-west-1:250373516626:log-group:*"
+            ]
+        },
+        {
+            "Sid": "PutCloudwatchLogs",
+            "Effect": "Allow",
+            "Action": [
+                "logs:PutLogEvents"
+            ],
+            "Resource": [
+                "arn:aws:logs:eu-west-1:250373516626:log-group:*"
+            ]
+        },
+        {
+            "Sid": "ReadInputStream",
+            "Effect": "Allow",
+            "Action": "kinesis:*",
+            "Resource": "arn:aws:kinesis:eu-west-1:250373516626:stream/Hackathon-12-09-2020-Team-B-Source"
+        },
+        {
+            "Sid": "WriteOutputStream",
+            "Effect": "Allow",
+            "Action": "kinesis:*",
+            "Resource": "arn:aws:kinesis:eu-west-1:250373516626:stream/Hackathon-12-09-2020-Team-B-Target"
+        }
+    ]
+}
