@@ -11,6 +11,6 @@
  * SageMaker
 
 ## Dataset
-CIFAR-10 image database f
+CIFAR-10 image database 
 
 
