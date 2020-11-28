@@ -13,7 +13,6 @@ Image stylization has been studied for over two decades in the image processing 
 
 Project is created with:
 
-
 # Set Up:
 
 To run this Project we used:
