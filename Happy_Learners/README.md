@@ -12,10 +12,13 @@ Image stylization has been studied for over two decades in the image processing 
 # Technologies:
 
 Project is created with:
+•	Pytorch 
+•	CNN
 
 # Set Up:
 
 To run this Project we used:
+After installing dependencies, you'll need to run the following script to download the VGG model.
 
 
 
